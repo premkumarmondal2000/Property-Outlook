@@ -1,10 +1,10 @@
     # Property Value Outlook
 
-A sales-conversation tool that shows a prospect the projected value of a home after **X years**, where X is whatever the prospect asks for. Built as a product prototype for Godrej Properties projects in **Thane, Navi Mumbai and South Mumbai (SoBo)**.
+A sales-conversation tool that shows a prospect the projected value of a home after **X years**, where X is whatever the prospect asks for. Built as a product prototype using sample project data for the **Thane, Navi Mumbai and South Mumbai (SoBo)** markets.
 
 **Live demo:** https://premkumarmondal2000.github.io/Property-Outlook/
 
-> This is an independent prototype made for a product-management exercise. It is not an official Godrej Properties product, and the Godrej name and logo belong to their owners. All prices in the demo are placeholders.
+> This is an independent prototype made for a product-management exercise. All project names and prices in the demo are sample data.
 
 ## The problem
 
@@ -12,7 +12,7 @@ When a prospect asks "What will this be worth in 5 years?", a salesperson usuall
 
 ## What the tool does
 
-1. Salesperson picks a **project** (9 Godrej projects across three regions).
+1. Salesperson picks a **project** (9 sample projects across three regions).
 2. Picks a **typology** (2 / 3 / 4 BHK) and enters the **current price range** in rupees lakh.
 3. Sets the prospect's **horizon in years** with a slider or by typing (1 to 30 years).
 4. Reads out a **conservative / base / optimistic** projection, shown as a range, with gain in percent and a growth chart.
@@ -53,7 +53,7 @@ Where a micro-market has no separate price line in the ANAROCK reports (Vashi, S
 
 ## Known limitations
 
-- **Prices are placeholders.** The price ranges are region-level dummy bands, not Godrej's actual project prices.
+- **Prices and project names are sample data.** The price ranges are region-level dummy bands, not actual project prices.
 - Base and optimistic rates for some markets are placeholder assumptions, not research findings.
 - ANAROCK figures are quoted (asking) prices, not registered transaction prices.
 - Compounding a high rate over a long horizon produces large numbers; a cap or warning is planned.
@@ -72,6 +72,5 @@ A single static `index.html` file with no build step and no dependencies other t
 ## Author
 
 Prem Kumar Mondal
-https://www.linkedin.com/in/prem-kumar-mondal-736bb2229
 
     
